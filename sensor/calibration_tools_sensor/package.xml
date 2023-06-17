@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>calibration_tools_sensor</name>
+  <version>0.0.0</version>
+  <description>Metapackage for CalibrationTools sensor folder</description>
+  <maintainer email="sisahawork@gmail.com">Siddharth Saha</maintainer>
+  <license>GPL-3.0</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <depend>extrinsic_calibration_client</depend>
+  <depend>extrinsic_calibration_manager</depend>
+  <depend>extrinsic_dummy_calibrator</depend>
+  <depend>extrinsic_ground_plane_calibrator</depend>
+  <depend>extrinsic_interactive_calibrator</depend>
+  <depend>extrinsic_lidar_to_lidar_2d_calibrator</depend>
+  <depend>extrinsic_manual_calibrator</depend>
+  <depend>extrinsic_map_based_calibrator</depend>
+  <depend>extrinsic_tag_based_calibrator</depend>
+  <depend>intrinsic_camera_calibration</depend>
+  <depend>intrinsic_camera_calibrator</depend>
+  <depend>point_cloud_accumulator</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
